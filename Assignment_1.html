@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pricing Table</title>
+<style>
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    margin-top: 100px;
+}
+.card {
+    width: 240px;
+    background-color: #eee;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+.highlight {
+    background-color: #eae8e8;
+    transform: scale(1.05);
+}
+.card h1 {
+    font-size: 32px;
+}
+
+.card span {
+    font-size: 14px;
+    color: rgb(122, 115, 103);
+}
+.card p {
+    margin: 8px 0;
+}
+
+.no {
+    color: red;
+}
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+    <div class="card">
+        <h3>Basic</h3>
+        <h1>$11.99 <span>/month</span></h1>
+        <p>✅ 10GB Storage</p>
+        <p>✅ 1 User</p>
+        <p class="no">❌ Support</p>
+        <button>Sign Up</button>
+    </div>
+    <div class="card highlight">
+        <h3>Standard</h3>
+        <h1>$19.99 <span>/month</span></h1>
+        <p>✅ 50GB Storage</p>
+        <p>✅ 5 Users</p>
+        <p>✅ Phone & Email Support</p>
+        <button>Sign Up</button>
+    </div>
+    <div class="card">
+        <h3>Premium</h3>
+        <h1>$49.99 <span>/month</span></h1>
+        <p>✅ 100GB Storage</p>
+        <p>✅ 10 Users</p>
+        <p>✅ 24/7 Support</p>
+        <button>Sign Up</button>
+    </div>
+</div>
+</body>
+</html>
